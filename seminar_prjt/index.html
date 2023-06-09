@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>CalTemp</h1>
+        <div class="profile">
+            <img src="/img/avatar_profile.avif" alt="profile">
+            <p>Genesis Anosike</p>
+        </div>
+    </nav>
+    <main>
+        <aside>
+            <div class="link">
+                <a href="#">Dashboard</a>
+            </div>
+            <div class="link">
+                <a href="#">Readings</a>
+            </div>
+            <div class="link">
+                <a href="#">Profile</a>
+            </div>
+            <div class="link">
+                <a href="#">Settings</a>
+            </div>
+            <div class="link">
+                <a href="#" id="logout">Logout</a>
+            </div>
+        </aside>
+        <div class="main-content">
+            <div class="search">
+                <input class="srch_rcd" type="search" placeholder="Search Records">
+            </div>
+            <div class="search_info">
+                <div class="info">
+                    <h3>Temp. Reading records</h3>
+                    <div class="select">
+                        <label for="status">Status:
+                            <select name="cars" id="status">
+                                <option value="All">All</option>
+                                <option value="Low">Low</option>
+                                <option value="Normal">Normal</option>
+                                <option value="High">High</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                
+                <div id="temp_container">
+
+                </div>
+
+
+                <div class="next-page">
+                    <h3 class="nxt_pg3">1</h3>
+                    <h3 class="nxt_pg3">2</h3>
+                    <h3>...</h3>
+                    <h3 class="nxt_pg3">4</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

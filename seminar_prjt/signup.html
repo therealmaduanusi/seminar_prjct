@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+    <title>CalTemp | signUp</title>
+</head>
+<body>
+    <div id="signup-wrapper">
+        <div class="compny_name">
+            <div class="name">
+                <h1>CalTemp</h1>
+            </div>
+        </div>
+        <div class="signup">
+            <div class="sign_up_grid">
+                <h2>Sign Up</h2>
+                <p class="acc-info">Enter your information to create an account</p>
+                <form action="" method="">
+                    <!-- <input type="hidden" name="action" value="register"> -->
+                    <div class="wrapper-sub">
+                        <div class="wrapper-sub1">
+                            <label for="fname">User Name</label>
+                            <br>
+                            <input class="details" type="text" id="username" name="username" placeholder="eg john">
+                        </div>
+                        <div class="wrapper-sub1">
+                            <label for="fname">Email</label>
+                            <br>
+                            <input class="details" type="email" id="email" name="email" placeholder="example@gmail.com">
+                        </div>
+                    </div>
+
+                    <div class="wrapper-passwrd">
+                        <div class="wrapper-passwrd1">
+                            <label for="lname">Password</label>
+                            <br>
+                            <input class="details" type="password" id="password" name="password" placeholder="at least 8 characters">
+                        </div>
+                        <div class="wrapper-passwrd1">
+                            <label for="lname">Comfirm Password</label>
+                            <br>
+                            <input class="details" type="password" id="confirm_password" name="confirm_password" placeholder="at least 8 characters">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="checkbox">
+                        <label class="cb" for="cb">
+                            <input type="checkbox" name="checkbox" id="cb">
+                            I agree to the
+                        </label>
+                        <a href="#">Terms Policy Conditions</a>
+                    </div>
+                    <button class="login_btn" id="submit">Log In</button>
+                </form>
+                
+                <p class="new_acc">Don't have an account with us? <a href="/index.html">sign In.</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/main.js"></script>
+</html>

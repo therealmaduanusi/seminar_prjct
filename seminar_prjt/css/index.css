@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    background: linear-gradient(to right, #00AEFF 50%,
+            #FF0303 60%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+    font-size: 3em;
+}
+a{
+    text-decoration: none;
+}
+a:hover, button:hover{
+    opacity: 0.5;
+}
+#signup-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+
+}
+
+.compny_name{
+    text-align: center;
+    display: grid;
+}
+.name{
+    align-self: center;
+}
+
+/* signup */
+.signup{
+    line-height: 25px;
+    display: grid;
+}
+.sign_up_grid{
+    align-self: center;
+    width: 70%;
+}
+.sign_up_grid > p{
+    margin-bottom: 20px;
+}
+h2{
+    color: #00AEFF;
+    font-weight: 200;
+}
+
+.details{
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 10px 7px;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.checkbox > a{
+    color: #ff0000;
+}
+.cb{
+    cursor: pointer;
+}
+.login_btn{
+    width: 100%;
+    margin: 20px 0;
+    background-color: #00AEFF;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.new_acc{
+    text-align: center;
+}
+.new_acc > a{
+    color: #00AEFF;
+}
